@@ -34,14 +34,14 @@ public class MyStringStackTest extends TestCase {
 		String o1 = null;  
 		MyStringStack stack = new MyStringStack();
 		
-		//added for Workshop 3
-		stack.push(s1);
-		assertTrue (stack.isEmpty());
-		
+//		//added for Workshop 3
+//		stack.push(s1);
 //		assertTrue (stack.isEmpty());
-//		stack.push (s1);
-//        stack.push (s2);
-//        assertFalse (stack.isEmpty());
+		
+		assertTrue (stack.isEmpty());
+		stack.push (s1);
+        stack.push (s2);
+        assertFalse (stack.isEmpty());
 	}
 
 	@Test
